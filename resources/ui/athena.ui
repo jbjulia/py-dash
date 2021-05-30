@@ -1,0 +1,1339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Dashboard</class>
+    <widget class="QMainWindow" name="Dashboard">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1201</width>
+                <height>901</height>
+            </rect>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>1001</width>
+                <height>801</height>
+            </size>
+        </property>
+        <property name="windowTitle">
+            <string>&quot;Athena&quot; - Dashboard - Created by Joseph Julian</string>
+        </property>
+        <property name="windowOpacity">
+            <double>0.970000000000000</double>
+        </property>
+        <property name="styleSheet">
+            <string notr="true">background-color: rgba(132, 129, 122,1.0);</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QGridLayout" name="gridLayout">
+                <property name="leftMargin">
+                    <number>0</number>
+                </property>
+                <property name="topMargin">
+                    <number>0</number>
+                </property>
+                <property name="rightMargin">
+                    <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>4</number>
+                </property>
+                <item row="0" column="0" rowspan="4">
+                    <widget class="QFrame" name="frmMenu">
+                        <property name="sizePolicy">
+                            <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>221</width>
+                                <height>501</height>
+                            </size>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgba(209, 204, 192,.5);</string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QPushButton" name="btnLogo">
+                            <property name="geometry">
+                                <rect>
+                                    <x>30</x>
+                                    <y>40</y>
+                                    <width>161</width>
+                                    <height>151</height>
+                                </rect>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">QPushButton{
+                                    background: none;
+                                    border: 1px solid;
+                                    border-color: rgba(247, 241, 227,.50);
+                                    border-radius: 75px;
+                                    }
+                                    QPushButton:hover:!pressed{
+                                    border: 2px solid;
+                                    border-color: rgba(247, 241, 227,.75);
+                                    }
+                                    QPushButton:hover:pressed{
+                                    border: 2px solid;
+                                    border-color: rgba(247, 241, 227,1);
+                                    }
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                            <property name="icon">
+                                <iconset>
+                                    <normaloff>../icons/owl.png</normaloff>../icons/owl.png
+                                </iconset>
+                            </property>
+                            <property name="iconSize">
+                                <size>
+                                    <width>141</width>
+                                    <height>141</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" name="btnAction1">
+                            <property name="geometry">
+                                <rect>
+                                    <x>0</x>
+                                    <y>310</y>
+                                    <width>221</width>
+                                    <height>71</height>
+                                </rect>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Microsoft YaHei UI Light</family>
+                                    <pointsize>14</pointsize>
+                                </font>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">QPushButton{
+                                    background: none;
+                                    border-radius: 3px;
+                                    color: rgba(0, 70, 95,.95);
+                                    }
+                                    QPushButton:hover:!pressed{
+                                    background-color: rgba(253, 191, 0,.5);
+                                    border-left: 3px solid transparent;
+                                    }
+                                    QPushButton:hover:pressed{
+                                    background-color: rgba(255, 218, 45,.75);
+                                    }
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string>Action 1</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" name="btnAction2">
+                            <property name="geometry">
+                                <rect>
+                                    <x>0</x>
+                                    <y>380</y>
+                                    <width>221</width>
+                                    <height>71</height>
+                                </rect>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Microsoft YaHei UI Light</family>
+                                    <pointsize>14</pointsize>
+                                </font>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">QPushButton{
+                                    background: none;
+                                    border-radius: 3px;
+                                    color: rgba(0, 70, 95,.95);
+                                    }
+                                    QPushButton:hover:!pressed{
+                                    background-color: rgba(253, 191, 0,.5);
+                                    border-left: 3px solid transparent;
+                                    }
+                                    QPushButton:hover:pressed{
+                                    background-color: rgba(255, 218, 45,.75);
+                                    }
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string>Action 2</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" name="btnAction3">
+                            <property name="geometry">
+                                <rect>
+                                    <x>0</x>
+                                    <y>450</y>
+                                    <width>221</width>
+                                    <height>71</height>
+                                </rect>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Microsoft YaHei UI Light</family>
+                                    <pointsize>14</pointsize>
+                                </font>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">QPushButton{
+                                    background: none;
+                                    border-radius: 3px;
+                                    color: rgba(0, 70, 95,.95);
+                                    }
+                                    QPushButton:hover:!pressed{
+                                    background-color: rgba(253, 191, 0,.5);
+                                    border-left: 3px solid transparent;
+                                    }
+                                    QPushButton:hover:pressed{
+                                    background-color: rgba(255, 218, 45,.75);
+                                    }
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string>Action 3</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" name="btnAction4">
+                            <property name="geometry">
+                                <rect>
+                                    <x>0</x>
+                                    <y>520</y>
+                                    <width>221</width>
+                                    <height>71</height>
+                                </rect>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Microsoft YaHei UI Light</family>
+                                    <pointsize>14</pointsize>
+                                </font>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">QPushButton{
+                                    background: none;
+                                    border-radius: 3px;
+                                    color: rgba(0, 70, 95,.95);
+                                    }
+                                    QPushButton:hover:!pressed{
+                                    background-color: rgba(253, 191, 0,.5);
+                                    border-left: 3px solid transparent;
+                                    }
+                                    QPushButton:hover:pressed{
+                                    background-color: rgba(255, 218, 45,.75);
+                                    }
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string>Action 4</string>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" name="btnAction5">
+                            <property name="geometry">
+                                <rect>
+                                    <x>0</x>
+                                    <y>590</y>
+                                    <width>221</width>
+                                    <height>71</height>
+                                </rect>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Microsoft YaHei UI Light</family>
+                                    <pointsize>14</pointsize>
+                                </font>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">QPushButton{
+                                    background: none;
+                                    border-radius: 3px;
+                                    color: rgba(0, 70, 95,.95);
+                                    }
+                                    QPushButton:hover:!pressed{
+                                    background-color: rgba(253, 191, 0,.5);
+                                    border-left: 3px solid transparent;
+                                    }
+                                    QPushButton:hover:pressed{
+                                    background-color: rgba(255, 218, 45,.75);
+                                    }
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string>Action 5</string>
+                            </property>
+                        </widget>
+                        <widget class="QToolButton" name="btnQuit">
+                            <property name="geometry">
+                                <rect>
+                                    <x>0</x>
+                                    <y>850</y>
+                                    <width>81</width>
+                                    <height>51</height>
+                                </rect>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Microsoft YaHei Light</family>
+                                    <pointsize>9</pointsize>
+                                </font>
+                            </property>
+                            <property name="toolTip">
+                                <string>Quit Application</string>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">QToolButton{
+                                    background: none;
+                                    border: none;
+                                    border-radius: 35px;
+                                    }
+                                    QToolButton:hover:!pressed{
+                                    background-color: rgba(210, 0, 65,.5);
+                                    border-left: 3px solid transparent;
+                                    }
+                                    QToolButton:hover:pressed{
+                                    background-color: rgba(210, 0, 65,.75);
+                                    }
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                            <property name="iconSize">
+                                <size>
+                                    <width>35</width>
+                                    <height>35</height>
+                                </size>
+                            </property>
+                            <property name="toolButtonStyle">
+                                <enum>Qt::ToolButtonIconOnly</enum>
+                            </property>
+                        </widget>
+                        <widget class="QToolButton" name="btnSettings">
+                            <property name="geometry">
+                                <rect>
+                                    <x>70</x>
+                                    <y>850</y>
+                                    <width>81</width>
+                                    <height>51</height>
+                                </rect>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Microsoft YaHei Light</family>
+                                    <pointsize>9</pointsize>
+                                </font>
+                            </property>
+                            <property name="toolTip">
+                                <string>Application Settings</string>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">QToolButton{
+                                    background: none;
+                                    border: none;
+                                    border-radius: 35px;
+                                    }
+                                    QToolButton:hover:!pressed{
+                                    background-color: rgba(253, 191, 0,.5);
+                                    border-left: 3px solid transparent;
+                                    }
+                                    QToolButton:hover:pressed{
+                                    background-color: rgba(255, 218, 45,.75);
+                                    }
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                            <property name="iconSize">
+                                <size>
+                                    <width>35</width>
+                                    <height>35</height>
+                                </size>
+                            </property>
+                            <property name="toolButtonStyle">
+                                <enum>Qt::ToolButtonIconOnly</enum>
+                            </property>
+                        </widget>
+                        <widget class="QToolButton" name="btnUser">
+                            <property name="geometry">
+                                <rect>
+                                    <x>140</x>
+                                    <y>850</y>
+                                    <width>81</width>
+                                    <height>51</height>
+                                </rect>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Microsoft YaHei Light</family>
+                                    <pointsize>9</pointsize>
+                                </font>
+                            </property>
+                            <property name="toolTip">
+                                <string>User Settings</string>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">QToolButton{
+                                    background: none;
+                                    border: none;
+                                    border-radius: 35px;
+                                    }
+                                    QToolButton:hover:!pressed{
+                                    background-color: rgba(0, 96, 127,.5);
+                                    border-left: 3px solid transparent;
+                                    }
+                                    QToolButton:hover:pressed{
+                                    background-color: rgba(0, 96, 127,.75);
+                                    }
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string/>
+                            </property>
+                            <property name="iconSize">
+                                <size>
+                                    <width>35</width>
+                                    <height>35</height>
+                                </size>
+                            </property>
+                            <property name="toolButtonStyle">
+                                <enum>Qt::ToolButtonIconOnly</enum>
+                            </property>
+                        </widget>
+                    </widget>
+                </item>
+                <item row="0" column="1" colspan="4">
+                    <widget class="QFrame" name="frmHeader">
+                        <property name="sizePolicy">
+                            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>0</width>
+                                <height>141</height>
+                            </size>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgba(247, 241, 227,.75);</string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                        </property>
+                        <widget class="QLabel" name="lblGreeting">
+                            <property name="geometry">
+                                <rect>
+                                    <x>10</x>
+                                    <y>100</y>
+                                    <width>961</width>
+                                    <height>31</height>
+                                </rect>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Microsoft YaHei UI Light</family>
+                                    <pointsize>14</pointsize>
+                                </font>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">background: none;
+                                    border: none;
+                                    color: rgba(0, 70, 95,.95);
+                                </string>
+                            </property>
+                            <property name="text">
+                                <string>Greeting</string>
+                            </property>
+                            <property name="alignment">
+                                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                            </property>
+                        </widget>
+                        <widget class="QToolButton" name="btnToggleWindowSize">
+                            <property name="geometry">
+                                <rect>
+                                    <x>930</x>
+                                    <y>10</y>
+                                    <width>31</width>
+                                    <height>31</height>
+                                </rect>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Microsoft YaHei Light</family>
+                                    <pointsize>9</pointsize>
+                                </font>
+                            </property>
+                            <property name="toolTip">
+                                <string>Maximize Window</string>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">QToolButton{
+                                    background: none;
+                                    border: none;
+                                    }
+                                    QToolButton:hover:!pressed{
+                                    border-left: 1px solid transparent;
+                                    }
+                                </string>
+                            </property>
+                            <property name="iconSize">
+                                <size>
+                                    <width>25</width>
+                                    <height>25</height>
+                                </size>
+                            </property>
+                            <property name="toolButtonStyle">
+                                <enum>Qt::ToolButtonIconOnly</enum>
+                            </property>
+                        </widget>
+                        <widget class="QToolButton" name="btnCollapse">
+                            <property name="geometry">
+                                <rect>
+                                    <x>890</x>
+                                    <y>10</y>
+                                    <width>31</width>
+                                    <height>31</height>
+                                </rect>
+                            </property>
+                            <property name="font">
+                                <font>
+                                    <family>Microsoft YaHei Light</family>
+                                    <pointsize>9</pointsize>
+                                </font>
+                            </property>
+                            <property name="toolTip">
+                                <string>Collapse Window</string>
+                            </property>
+                            <property name="styleSheet">
+                                <string notr="true">QToolButton{
+                                    background: none;
+                                    border: none;
+                                    }
+                                    QToolButton:hover:!pressed{
+                                    border-left: 1px solid transparent;
+                                    }
+                                </string>
+                            </property>
+                            <property name="iconSize">
+                                <size>
+                                    <width>25</width>
+                                    <height>25</height>
+                                </size>
+                            </property>
+                            <property name="toolButtonStyle">
+                                <enum>Qt::ToolButtonIconOnly</enum>
+                            </property>
+                        </widget>
+                    </widget>
+                </item>
+                <item row="1" column="1">
+                    <widget class="QFrame" name="frmMetric1">
+                        <property name="sizePolicy">
+                            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>0</width>
+                                <height>151</height>
+                            </size>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgb(0, 96, 127);
+                                border: none;
+                                border-radius: 3px;
+                            </string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout_2">
+                            <property name="leftMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>20</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>20</number>
+                            </property>
+                            <property name="spacing">
+                                <number>0</number>
+                            </property>
+                            <item row="0" column="0">
+                                <widget class="QLabel" name="lblMetric1">
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Light Condensed</family>
+                                            <pointsize>14</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(247, 241, 227,.75);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>Metric 1</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>Qt::AlignCenter</set>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="1" column="0">
+                                <widget class="QLabel" name="lblMetric1_Count">
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Condensed</family>
+                                            <pointsize>36</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(253, 152, 44,.95);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>0</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>Qt::AlignCenter</set>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="1" column="2">
+                    <widget class="QFrame" name="frmMetric2">
+                        <property name="sizePolicy">
+                            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>0</width>
+                                <height>151</height>
+                            </size>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgb(0, 96, 127);
+                                border: none;
+                                border-radius: 3px;
+                            </string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout_3">
+                            <property name="leftMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>20</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>20</number>
+                            </property>
+                            <property name="spacing">
+                                <number>0</number>
+                            </property>
+                            <item row="0" column="0">
+                                <widget class="QLabel" name="lblMetric2">
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Light Condensed</family>
+                                            <pointsize>14</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(247, 241, 227,.75);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>Metric 2</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>Qt::AlignCenter</set>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="1" column="0">
+                                <widget class="QLabel" name="lblMetric2_Count">
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Condensed</family>
+                                            <pointsize>36</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(253, 152, 44,.95);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>0</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>Qt::AlignCenter</set>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="1" column="3">
+                    <widget class="QFrame" name="frmMetric3">
+                        <property name="sizePolicy">
+                            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>0</width>
+                                <height>151</height>
+                            </size>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgb(0, 96, 127);
+                                border: none;
+                                border-radius: 3px;
+                            </string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout_4">
+                            <property name="leftMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>20</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>20</number>
+                            </property>
+                            <property name="spacing">
+                                <number>0</number>
+                            </property>
+                            <item row="0" column="0">
+                                <widget class="QLabel" name="lblMetric3">
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Light Condensed</family>
+                                            <pointsize>14</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(247, 241, 227,.75);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>Metric 3</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>Qt::AlignCenter</set>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="1" column="0">
+                                <widget class="QLabel" name="lblMetric3_Count">
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Condensed</family>
+                                            <pointsize>36</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(253, 152, 44,.95);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>0</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>Qt::AlignCenter</set>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="1" column="4">
+                    <widget class="QFrame" name="frmMetric4">
+                        <property name="sizePolicy">
+                            <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>0</width>
+                                <height>151</height>
+                            </size>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgb(0, 96, 127);
+                                border: none;
+                                border-radius: 3px;
+                            </string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout_5">
+                            <property name="leftMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>20</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>20</number>
+                            </property>
+                            <property name="spacing">
+                                <number>0</number>
+                            </property>
+                            <item row="0" column="0">
+                                <widget class="QLabel" name="lblMetric4">
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Light Condensed</family>
+                                            <pointsize>14</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(247, 241, 227,.75);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>Metric 4</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>Qt::AlignCenter</set>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="1" column="0">
+                                <widget class="QLabel" name="lblMetric4_Count">
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Condensed</family>
+                                            <pointsize>36</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(253, 152, 44,.95);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>0</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>Qt::AlignCenter</set>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="2" column="4" rowspan="2">
+                    <widget class="QFrame" name="frmTasks">
+                        <property name="sizePolicy">
+                            <sizepolicy hsizetype="Ignored" vsizetype="Preferred">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>196</width>
+                                <height>0</height>
+                            </size>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgb(0, 96, 127);
+                                border: none;
+                                border-radius: 3px;
+                            </string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout_9">
+                            <property name="leftMargin">
+                                <number>10</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>10</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>10</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>10</number>
+                            </property>
+                            <property name="spacing">
+                                <number>0</number>
+                            </property>
+                            <item row="0" column="0" colspan="2">
+                                <widget class="QLabel" name="lblTasks">
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Light Condensed</family>
+                                            <pointsize>16</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(247, 241, 227,.75);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>Tasks</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>Qt::AlignCenter</set>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="1" column="0" colspan="2">
+                                <widget class="QListWidget" name="listWidget">
+                                    <property name="sizePolicy">
+                                        <sizepolicy hsizetype="Ignored" vsizetype="Expanding">
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Light Condensed</family>
+                                            <pointsize>14</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(253, 152, 44,.95);</string>
+                                    </property>
+                                    <property name="editTriggers">
+                                        <set>QAbstractItemView::AllEditTriggers</set>
+                                    </property>
+                                    <property name="dragEnabled">
+                                        <bool>true</bool>
+                                    </property>
+                                    <property name="dragDropOverwriteMode">
+                                        <bool>true</bool>
+                                    </property>
+                                    <property name="alternatingRowColors">
+                                        <bool>false</bool>
+                                    </property>
+                                    <property name="wordWrap">
+                                        <bool>true</bool>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="3" column="1">
+                    <widget class="QFrame" name="frmBackend">
+                        <property name="sizePolicy">
+                            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>0</width>
+                                <height>151</height>
+                            </size>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgb(0, 96, 127);
+                                border: none;
+                                border-radius: 3px;
+                            </string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout_6">
+                            <property name="leftMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>30</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="spacing">
+                                <number>0</number>
+                            </property>
+                            <item row="0" column="0">
+                                <widget class="QToolButton" name="btnBackend">
+                                    <property name="sizePolicy">
+                                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Light Condensed</family>
+                                            <pointsize>14</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(247, 241, 227,.75);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>STATUS 1</string>
+                                    </property>
+                                    <property name="iconSize">
+                                        <size>
+                                            <width>50</width>
+                                            <height>50</height>
+                                        </size>
+                                    </property>
+                                    <property name="toolButtonStyle">
+                                        <enum>Qt::ToolButtonTextUnderIcon</enum>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="3" column="2">
+                    <widget class="QFrame" name="frmInternet">
+                        <property name="sizePolicy">
+                            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>0</width>
+                                <height>151</height>
+                            </size>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgb(0, 96, 127);
+                                border: none;
+                                border-radius: 3px;
+                            </string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout_7">
+                            <property name="leftMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>30</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="spacing">
+                                <number>0</number>
+                            </property>
+                            <item row="0" column="0">
+                                <widget class="QToolButton" name="btnInternet">
+                                    <property name="sizePolicy">
+                                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Light Condensed</family>
+                                            <pointsize>14</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(247, 241, 227,.75);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>STATUS 2</string>
+                                    </property>
+                                    <property name="iconSize">
+                                        <size>
+                                            <width>50</width>
+                                            <height>50</height>
+                                        </size>
+                                    </property>
+                                    <property name="toolButtonStyle">
+                                        <enum>Qt::ToolButtonTextUnderIcon</enum>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="3" column="3">
+                    <widget class="QFrame" name="frmVersion">
+                        <property name="sizePolicy">
+                            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                                <horstretch>0</horstretch>
+                                <verstretch>0</verstretch>
+                            </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                            <size>
+                                <width>0</width>
+                                <height>151</height>
+                            </size>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgb(0, 96, 127);
+                                border: none;
+                                border-radius: 3px;
+                            </string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout_8">
+                            <property name="leftMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>30</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>0</number>
+                            </property>
+                            <property name="spacing">
+                                <number>0</number>
+                            </property>
+                            <item row="0" column="0">
+                                <widget class="QToolButton" name="btnVersion">
+                                    <property name="sizePolicy">
+                                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <family>Bahnschrift Light Condensed</family>
+                                            <pointsize>14</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">color: rgba(247, 241, 227,.75);</string>
+                                    </property>
+                                    <property name="text">
+                                        <string>STATUS 3</string>
+                                    </property>
+                                    <property name="iconSize">
+                                        <size>
+                                            <width>50</width>
+                                            <height>50</height>
+                                        </size>
+                                    </property>
+                                    <property name="toolButtonStyle">
+                                        <enum>Qt::ToolButtonTextUnderIcon</enum>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+                <item row="2" column="1" colspan="3">
+                    <widget class="QFrame" name="frmChart">
+                        <property name="styleSheet">
+                            <string notr="true">background-color: rgb(0, 96, 127);
+                                border: none;
+                                border-radius: 3px;
+                            </string>
+                        </property>
+                        <property name="frameShape">
+                            <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                            <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout_10">
+                            <property name="leftMargin">
+                                <number>7</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>20</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>7</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>10</number>
+                            </property>
+                            <item row="0" column="0">
+                                <widget class="QPushButton" name="btnBarChart">
+                                    <property name="font">
+                                        <font>
+                                            <family>Microsoft YaHei Light</family>
+                                            <pointsize>12</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">QPushButton{
+                                            background: none;
+                                            border: none;
+                                            }
+                                            QPushButton:hover:!pressed{
+                                            border-left: 3px solid transparent;
+                                            }
+                                        </string>
+                                    </property>
+                                    <property name="text">
+                                        <string/>
+                                    </property>
+                                    <property name="iconSize">
+                                        <size>
+                                            <width>25</width>
+                                            <height>25</height>
+                                        </size>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="0" column="1">
+                                <widget class="QPushButton" name="btnLineChart">
+                                    <property name="font">
+                                        <font>
+                                            <family>Microsoft YaHei Light</family>
+                                            <pointsize>12</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">QPushButton{
+                                            background: none;
+                                            border: none;
+                                            }
+                                            QPushButton:hover:!pressed{
+                                            border-left: 3px solid transparent;
+                                            }
+                                        </string>
+                                    </property>
+                                    <property name="text">
+                                        <string/>
+                                    </property>
+                                    <property name="iconSize">
+                                        <size>
+                                            <width>25</width>
+                                            <height>25</height>
+                                        </size>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="0" column="2">
+                                <widget class="QPushButton" name="btnPieChart">
+                                    <property name="font">
+                                        <font>
+                                            <family>Microsoft YaHei Light</family>
+                                            <pointsize>12</pointsize>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">QPushButton{
+                                            background: none;
+                                            border: none;
+                                            }
+                                            QPushButton:hover:!pressed{
+                                            border-left: 3px solid transparent;
+                                            }
+                                        </string>
+                                    </property>
+                                    <property name="text">
+                                        <string/>
+                                    </property>
+                                    <property name="iconSize">
+                                        <size>
+                                            <width>25</width>
+                                            <height>25</height>
+                                        </size>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="1" column="0" colspan="3">
+                                <widget class="QChartView" name="widget" native="true"/>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+    </widget>
+    <customwidgets>
+        <customwidget>
+            <class>QChartView</class>
+            <extends>QWidget</extends>
+            <header>PyQt5.QtChart</header>
+            <container>1</container>
+        </customwidget>
+    </customwidgets>
+    <resources/>
+    <connections/>
+</ui>

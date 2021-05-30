@@ -1,0 +1,19 @@
+{
+  "tasks": {
+    "completed_tasks": [
+      "Finish GUI design",
+      "Complete code TODOs"
+    ],
+    "outstanding_tasks": [
+      "Run application tests",
+      "Create git repository",
+      "Deploy first build"
+    ]
+  },
+  "metrics": {
+    "metric_1": 12345,
+    "metric_2": 23456,
+    "metric_3": 34567,
+    "metric_4": 45678
+  }
+}
